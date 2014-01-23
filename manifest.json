@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sort Markdown UL",
+  "description": "Sorts the selected markdown unordered list alphabetically. Icon: Sort designed hy Lemon Liu from the Noun Project",
+  "version": "1.0",
+
+  "permissions": [ "activeTab" ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
