@@ -2,7 +2,6 @@
   var textarea = document.activeElement;
   if (!textarea
     || textarea.tagName.toLowerCase() != "textarea") {
-      console.log(textarea.tagName.toLowerCase());
       return;
     }
 
